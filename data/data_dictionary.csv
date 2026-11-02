@@ -1,0 +1,10 @@
+column,description,type_or_unit
+timestamp,Packet/event timestamp,datetime
+src_ip,Source IP address,IPv4/IPv6
+dst_ip,Destination IP address,IPv4/IPv6
+protocol,Detected protocol label,TCP/UDP/DNS/ICMP/HTTP/HTTPS
+src_port,Source transport port,integer
+dst_port,Destination transport port,integer
+packet_length,Packet size,bytes
+tcp_flags,TCP flags when present,text
+dns_query,DNS query name when present,text
